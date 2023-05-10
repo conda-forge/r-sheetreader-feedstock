@@ -1,11 +1,22 @@
+About r-sheetreader-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sheetreader-feedstock/blob/main/LICENSE.txt)
+
 About r-sheetreader
-===================
+-------------------
 
 Home: https://github.com/fhenz/SheetReader-r
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sheetreader-feedstock/blob/main/LICENSE.txt)
+Summary: Uses C++ via the 'Rcpp' package to parse modern Excel files ('.xlsx'). Memory usage is kept minimal by decompressing only parts of the file at a time, while employing multiple threads to achieve significant runtime reduction. Uses <https://github.com/richgel999/miniz>, <https://github.com/ebiggers/libdeflate>, and <https://github.com/lemire/fast_double_parser>.
+About r-sheetreader
+-------------------
+
+Home: https://github.com/fhenz/SheetReader-r
+
+Package license: MIT
 
 Summary: Uses C++ via the 'Rcpp' package to parse modern Excel files ('.xlsx'). Memory usage is kept minimal by decompressing only parts of the file at a time, while employing multiple threads to achieve significant runtime reduction. Uses <https://github.com/richgel999/miniz>, <https://github.com/ebiggers/libdeflate>, and <https://github.com/lemire/fast_double_parser>.
 
