@@ -3,6 +3,7 @@ About r-sheetreader-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-sheetreader-feedstock/blob/main/LICENSE.txt)
 
+
 About r-sheetreader
 -------------------
 
@@ -11,6 +12,7 @@ Home: https://github.com/fhenz/SheetReader-r
 Package license: MIT
 
 Summary: Uses C++ via the 'Rcpp' package to parse modern Excel files ('.xlsx'). Memory usage is kept minimal by decompressing only parts of the file at a time, while employing multiple threads to achieve significant runtime reduction. Uses <https://github.com/richgel999/miniz>, <https://github.com/ebiggers/libdeflate>, and <https://github.com/lemire/fast_double_parser>.
+
 About r-sheetreader
 -------------------
 
@@ -153,7 +155,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
