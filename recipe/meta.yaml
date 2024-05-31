@@ -1,4 +1,4 @@
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -11,7 +11,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/SheetReader_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/SheetReader/SheetReader_{{ version }}.tar.gz
-  sha256: 4d9c0d1a27eae17d4e7e11994a045e4ceae342eb4fc217a99b75f67d7cb849b5
+  sha256: 74770fa1d699a01650d57ab005d7a15e9c4961bd82c282bba948534aa07f2c2d
 
 build:
   merge_build_host: true  # [win]
@@ -24,7 +24,9 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}  # [not win]
+    - {{ stdlib("c") }}    # [not win]
     - {{ compiler('m2w64_c') }}  # [win]
+    - {{ stdlib("m2w64_c") }}    # [win]
     - {{ compiler('cxx') }}  # [not win]
     - {{ compiler('m2w64_cxx') }}  # [win]
     - {{ posix }}filesystem  # [win]
